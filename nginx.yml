@@ -1,0 +1,6 @@
+---
+- name: AB-WebUI
+  hosts: webui
+  become: yes
+  roles:
+    - nginx
